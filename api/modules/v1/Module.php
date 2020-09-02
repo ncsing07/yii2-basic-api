@@ -1,13 +1,15 @@
 <?php
-// Check this namespace:
-namespace app\api\modules\v1;
+
+namespace api\modules\v1;
 
 class Module extends \yii\base\Module
 {
+    public $controllerNamespace = 'api\modules\v1\controllers';
+
     public function init()
     {
         parent::init();
-
-        // ...  other initialization code ...
+        \Yii::$app->user->enableSession = false;
+        // custom initialization code goes here
     }
 }

@@ -1,12 +1,19 @@
 <?php
 
 $db     = require(__DIR__ . '/../../config/db.php');
+// $params = require(__DIR__ . '/../../config/params.php');
 
 $config = [
     'id' => 'basic',
     'name' => 'Items',
-    'basePath' => dirname(__DIR__).'/..',
+    'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'modules' => [
+        'v1' => [
+            'basePath' => '@app/modules/v1',
+            'class' => 'api\modules\v1\Module'
+        ]
+    ],
     'components' => [
         'user' => [
             'identityClass' => 'models\User',
@@ -39,12 +46,7 @@ $config = [
             ],
         ], 
         'db' => $db,
-    ],
-    'modules' => [
-        'v1' => [
-            'basePath' => '@app/modules/v1',
-            'class' => 'api\modules\v1\Module',
-        ],
+        // 'params' => $params,
     ],
 ];
 
