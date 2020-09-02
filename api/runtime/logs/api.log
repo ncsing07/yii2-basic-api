@@ -1,0 +1,532 @@
+2020-09-02 11:49:32 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:49:32 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:49:32 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8k2q86fpshs92knm583vhpm3lc'
+    '_csrf' => '3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3'
+    'HTTP_COOKIE' => 'PHPSESSID=8k2q86fpshs92knm583vhpm3lc; _csrf=3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv%22%3B%7D'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57209'
+    'REDIRECT_URL' => '/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040172.175
+    'REQUEST_TIME' => 1599040172
+]
+2020-09-02 11:51:45 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:51:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:51:45 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8k2q86fpshs92knm583vhpm3lc'
+    '_csrf' => '3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3'
+    'HTTP_COOKIE' => 'PHPSESSID=8k2q86fpshs92knm583vhpm3lc; _csrf=3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv%22%3B%7D'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57217'
+    'REDIRECT_URL' => '/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040305.863
+    'REQUEST_TIME' => 1599040305
+]
+2020-09-02 11:51:46 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:51:46 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:51:46 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8k2q86fpshs92knm583vhpm3lc'
+    '_csrf' => '3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3'
+    'HTTP_COOKIE' => 'PHPSESSID=8k2q86fpshs92knm583vhpm3lc; _csrf=3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv%22%3B%7D'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57217'
+    'REDIRECT_URL' => '/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040306.607
+    'REQUEST_TIME' => 1599040306
+]
+2020-09-02 11:51:47 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:51:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:51:47 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8k2q86fpshs92knm583vhpm3lc'
+    '_csrf' => '3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3'
+    'HTTP_COOKIE' => 'PHPSESSID=8k2q86fpshs92knm583vhpm3lc; _csrf=3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv%22%3B%7D'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57217'
+    'REDIRECT_URL' => '/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040307.331
+    'REQUEST_TIME' => 1599040307
+]
+2020-09-02 11:51:48 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:51:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:51:48 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8k2q86fpshs92knm583vhpm3lc'
+    '_csrf' => '3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3'
+    'HTTP_COOKIE' => 'PHPSESSID=8k2q86fpshs92knm583vhpm3lc; _csrf=3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv%22%3B%7D'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57217'
+    'REDIRECT_URL' => '/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040308.001
+    'REQUEST_TIME' => 1599040308
+]
+2020-09-02 11:53:44 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:53:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:53:44 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8k2q86fpshs92knm583vhpm3lc'
+    '_csrf' => '3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3'
+    'HTTP_COOKIE' => 'PHPSESSID=8k2q86fpshs92knm583vhpm3lc; _csrf=3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv%22%3B%7D'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57221'
+    'REDIRECT_URL' => '/api/v1/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040424.457
+    'REQUEST_TIME' => 1599040424
+]
+2020-09-02 11:53:49 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:53:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:53:49 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '8k2q86fpshs92knm583vhpm3lc'
+    '_csrf' => '3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'insomnia/2020.3.3'
+    'HTTP_COOKIE' => 'PHPSESSID=8k2q86fpshs92knm583vhpm3lc; _csrf=3124e789a105f6c5519be057d7160fccbe8ff5008ff859233b45c3dbd03e5235a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_YNSzXAjcO5i0vm5H5cwKPfhBBtByyDv%22%3B%7D'
+    'HTTP_ACCEPT' => '*/*'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57221'
+    'REDIRECT_URL' => '/api/v1/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040429.052
+    'REQUEST_TIME' => 1599040429
+]
+2020-09-02 11:53:55 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2020-09-02 11:53:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Request.php:287
+Stack trace:
+#0 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\xampp\htdocs\basic\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\basic\api\index.php(13): yii\base\Application->run()
+#3 {main}
+2020-09-02 11:53:55 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'bt3fp79hbgn2d3lk78j2oqkc3a'
+    '_csrf' => 'a9a622aee2d64743c835fa182194355da8e44c2ef5103961a53ca6bcb2f7fad2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"knudlNYxQRejuVCbAPdZPDKKrxENwBrD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'yii2basic.test'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=bt3fp79hbgn2d3lk78j2oqkc3a; _csrf=a9a622aee2d64743c835fa182194355da8e44c2ef5103961a53ca6bcb2f7fad2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22knudlNYxQRejuVCbAPdZPDKKrxENwBrD%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\HashiCorp\\Vagrant\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\xampp\\php;C:\\Users\\Lenovo\\AppData\\Local\\ComposerSetup\\bin;C:\\Users\\Lenovo\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Lenovo\\.dotnet\\tools;C:\\Users\\Lenovo\\AppData\\Local\\GitHubDesktop\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33 Server at yii2basic.test Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.2.33'
+    'SERVER_NAME' => 'yii2basic.test'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/basic/api'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/basic/api/index.php'
+    'REMOTE_PORT' => '57222'
+    'REDIRECT_URL' => '/api/v1/items'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/items'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1599040435.102
+    'REQUEST_TIME' => 1599040435
+]
