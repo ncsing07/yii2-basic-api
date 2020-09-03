@@ -6,7 +6,7 @@ use Yii;
 // use yii\rest\ActiveController;
 use yii\web\Controller;
 use yii\web\Response;
-use app\models\Item;
+use api\modules\v1\models\Item;
 
 class ItemController extends Controller
 {
