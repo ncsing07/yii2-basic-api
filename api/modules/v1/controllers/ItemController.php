@@ -16,8 +16,6 @@ class ItemController extends Controller
     {
         $items = Item::find()->all();
 
-        Yii::$app->response->format = Response::FORMAT_JSON;
-
         return [
 	        'message' => 'hello world',
 	        'code' => 200,
