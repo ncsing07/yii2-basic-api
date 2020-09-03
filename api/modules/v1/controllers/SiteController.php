@@ -5,6 +5,7 @@ namespace api\modules\v1\controllers;
 use Yii;
 use yii\web\Controller;
 use api\modules\v1\models\RegisterForm;
+use api\modules\v1\models\LoginForm;
 
 class SiteController extends Controller
 {
@@ -44,6 +45,33 @@ class SiteController extends Controller
                 'status' => 1,
                 'code' => 200,
                 'data' => $result,
+            ];
+
+            return $response;
+        }
+    }
+
+    public function actionLogin()
+    {
+        $model = new LoginForm();
+        $model->attributes = $this->request->get();
+
+        $result = $model->login();
+
+        if ($result) {
+
+            $user = Yii::$app->user->identity;
+            unset($user['password']);
+            unset($user['access_token']);
+            unset($user['expire_at']);
+            unset($user['created_at']);
+
+            $response = Yii::$app->getResponse();
+            $response->statusCode = 200;
+            $response->data = [
+                'status' => 1,
+                'code' => 200,
+                'data' => $user,
             ];
 
             return $response;

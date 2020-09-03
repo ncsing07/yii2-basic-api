@@ -26,6 +26,7 @@ $config = [
         'request' => [
             // 'cookieValidationKey' => false,
             // 'enableCsrfValidation' => false,
+            'cookieValidationKey' => 'avcuX9MFzvhlwphwLsn87vY5g4lEVikB',
             // Enable JSON Input:
             'parsers' => [
                 'application/json' => 'yii\web\JsonParser',
@@ -54,6 +55,7 @@ $config = [
 
                 'v1/sites' => 'v1/site/index',
                 'POST v1/sites/register' => 'v1/site/register',
+                'POST v1/sites/login' => 'v1/site/login',
             ],
         ], 
         'db' => $db,
