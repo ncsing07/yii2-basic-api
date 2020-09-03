@@ -6,6 +6,7 @@ use Yii;
 use yii\web\Controller;
 use api\modules\v1\models\RegisterForm;
 use api\modules\v1\models\LoginForm;
+use api\modules\v1\models\User;
 
 class SiteController extends Controller
 {
@@ -75,6 +76,22 @@ class SiteController extends Controller
             ];
 
             return $response;
+        }
+    }
+
+    public function actionLogout()
+    {
+        $user = Yii::$app->user->identity;
+
+        if ($user) {
+            $user->access_token = NULL;
+            $user->save(false);
+            
+            Yii::$app->user->logout(false);
+
+            echo json_encode(array('status' => 1, 'code' => 200, 'message' => 'Successfully logout!'), JSON_PRETTY_PRINT);
+
+            Yii::$app->end();
         }
     }
 

@@ -56,6 +56,7 @@ $config = [
                 'v1/sites' => 'v1/site/index',
                 'POST v1/sites/register' => 'v1/site/register',
                 'POST v1/sites/login' => 'v1/site/login',
+                'POST v1/sites/logout' => 'v1/site/logout',
             ],
         ], 
         'db' => $db,
