@@ -15,15 +15,22 @@ $config = [
         ]
     ],
     'components' => [
+        'response' => [
+            'format' => yii\web\Response::FORMAT_JSON,
+            'charset' => 'UTF-8',
+        ],
         'user' => [
-            'identityClass' => 'models\User',
+            'identityClass' => 'api\modules\v1\models\User',
             'enableAutoLogin' => false,
         ],
         'request' => [
+            // 'cookieValidationKey' => false,
+            // 'enableCsrfValidation' => false,
+            'cookieValidationKey' => 'avcuX9MFzvhlwphwLsn87vY5g4lEVikB',
             // Enable JSON Input:
             'parsers' => [
                 'application/json' => 'yii\web\JsonParser',
-            ]
+            ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -37,12 +44,19 @@ $config = [
                 ],
             ],
         ],
+        'errorHandler' => [
+            'errorAction' => 'site/error',
+        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'enableStrictParsing' => true,
             'showScriptName' => false,
             'rules' => [
-                ['class' => 'yii\rest\UrlRule', 'controller' => 'v1/item'],
+                'v1/items' => 'v1/item/index',
+
+                'v1/sites' => 'v1/site/index',
+                'POST v1/sites/register' => 'v1/site/register',
+                'POST v1/sites/login' => 'v1/site/login',
+                'POST v1/sites/logout' => 'v1/site/logout',
             ],
         ], 
         'db' => $db,
