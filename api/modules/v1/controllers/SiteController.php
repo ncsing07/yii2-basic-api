@@ -42,6 +42,8 @@ class SiteController extends Controller
         
             $response = Yii::$app->getResponse();
             $response->statusCode = 200;
+            unset($result['password']);
+            unset($result['access_token']);
             $response->data = [
                 'status' => 1,
                 'code' => 200,
