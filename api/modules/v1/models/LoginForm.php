@@ -3,7 +3,7 @@ namespace api\modules\v1\models;
 
 use Yii;
 use yii\base\Model;
-
+use api\modules\v1\models\User;
 /**
  * Login form
  */
@@ -56,7 +56,13 @@ class LoginForm extends Model
     public function login()
     {
         if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser());
+            // return Yii::$app->user->login($this->getUser());
+            $user = User::findByUsername($this->username);
+            $user->generateAuthKey();
+            $user->save();
+
+            return $user;
+
         } else {
             $errors = $this->getErrors();
 

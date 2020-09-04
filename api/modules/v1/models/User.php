@@ -15,16 +15,9 @@ class User extends ActiveRecord implements IdentityInterface
 
     public static function findIdentityByAccessToken($token, $type = null)
     {
-        $access_token = AccessTokens::findOne(['token' => $token]);
-        if ($access_token) {
-            if ($access_token->expires_at < time()) {
-                Yii::$app->api->sendFailedResponse('Access token expired');
-            }
-
-            return static::findOne(['id' => $access_token->user_id]);
-        } else {
-            return (false);
-        }
+        $accessToken = AccessToken::find()->where(['token' => $token])->andWhere(['>', 'expire_at', date("Y-m-d H:i:s")])->one();
+        if(!$accessToken) return $accessToken;
+        return User::findOne(['id' => $accessToken->user_id]);
     }
 
     public function getId()
@@ -62,8 +55,9 @@ class User extends ActiveRecord implements IdentityInterface
         $this->password = Yii::$app->security->generatePasswordHash($password);
     }
 
-    public function generateAccessToken()
+    public function generateAuthKey()
     {
-        $this->access_token = Yii::$app->security->generateRandomString();
+        $this->auth_key = Yii::$app->security->generateRandomString();
+        AccessToken::generateAuthKey($this);
     }
 }
