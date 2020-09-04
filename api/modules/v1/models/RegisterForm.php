@@ -43,7 +43,8 @@ class RegisterForm extends Model
         $user->username = $this->username;
         $user->email = $this->email;
         $user->setPassword($this->password);
-        $user->generateAccessToken();
+        // $user->generateAuthKey();
+        $user->created_at = date("Y-m-d H:i:s");
         
         return $user->save() ? $user : null;
     }

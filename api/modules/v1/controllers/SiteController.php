@@ -42,8 +42,6 @@ class SiteController extends Controller
         
             $response = Yii::$app->getResponse();
             $response->statusCode = 200;
-            unset($result['password']);
-            unset($result['access_token']);
             $response->data = [
                 'status' => 1,
                 'code' => 200,
@@ -61,14 +59,7 @@ class SiteController extends Controller
 
         $result = $model->login();
 
-        if ($result) {
-
-            $user = Yii::$app->user->identity;
-            unset($user['password']);
-            unset($user['access_token']);
-            unset($user['expire_at']);
-            unset($user['created_at']);
-
+        if ($user = $result) {
             $response = Yii::$app->getResponse();
             $response->statusCode = 200;
             $response->data = [
@@ -78,22 +69,6 @@ class SiteController extends Controller
             ];
 
             return $response;
-        }
-    }
-
-    public function actionLogout()
-    {
-        $user = Yii::$app->user->identity;
-
-        if ($user) {
-            $user->access_token = NULL;
-            $user->save(false);
-            
-            Yii::$app->user->logout(false);
-
-            echo json_encode(array('status' => 1, 'code' => 200, 'message' => 'Successfully logout!'), JSON_PRETTY_PRINT);
-
-            Yii::$app->end();
         }
     }
 

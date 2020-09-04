@@ -8,6 +8,7 @@ use yii\web\Controller;
 use yii\web\Response;
 use api\modules\v1\models\Item;
 use yii\filters\AccessControl;
+use yii\filters\auth\HttpBearerAuth;
 
 class ItemController extends Controller
 {
@@ -15,21 +16,12 @@ class ItemController extends Controller
 
     public function behaviors()
     {
-        return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'rules' => [
-                    [
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-                'denyCallback' => function ($rule, $action) {
-                    throw new \yii\web\ForbiddenHttpException('You are not allowed to access this page');
-                }
-            ],
-        ];
-    }
+        $behaviors = parent::behaviors();
+        $behaviors['authenticator'] = [
+            'class' => HttpBearerAuth::className()   
+        ]; 
+        return $behaviors;
+    } 
 
     public function actionIndex()
     {
